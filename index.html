@@ -3,21 +3,70 @@
 
 <head>
     <meta charset="utf-8">
-    <title>The Psychic Game</title>
+    <title>Player vs Computer | A Psychic Game</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--Link to CSS-->
     <link rel="stylesheet" href="assets/css/style.css">
-    <!--Link to JavaScript-->
-    <script src="assets/javascript/game.js" type="text/javascript"></script>
     <!--Link to Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
 </head>
 
 <body>
+    <section class="background">
+        
+        <!--Main heading-->
+        <div class="header">
+            <h1>Welcome!</h1>
+        </div>
 
-<script>
+        <!--Sub heading-->
+        <div class="subheading">
+        <h3>The computer has picked an alphabet letter between a - z, you must choose the correct letter to win the game.</h3>
+            </div>
+        </div>
 
-</script>
+        <!--Instructions-->
+        <div class="instructions">
+            <h4>Press Any Keys To Get Started</h4>
+        </div>
+
+        <!--Display wins-->
+        <div>
+            <h4>Player Wins:</h4>
+        </div>
+        <div id="winCount">
+            <div>0</div>
+        </div>
+        
+        <!--Display losses-->
+        <div>
+            <h4>Computer Wins:</h4>
+        </div>
+        <div id="lossCount">
+            <div>0</div>
+        </div>
+
+        <!--Display guesses remaining-->
+        <div>
+            <h4>Guesses Left:</h4>
+        </div>
+        <div id="guessesRemaining">
+            <div>10</div>
+        </div>
+
+        <!--Display guesses so far-->
+        <div>
+            <h4>Your Guesses So Far:</h4>
+        </div>
+        <div id="guessedLetters">
+            <div>...</div>
+        </div>
+       
+    </section>
+
+    <!--Link to JavaScript-->
+    <script src="assets/javascript/game.js" type="text/javascript"></script>
+
 </body>
 
 </html>
