@@ -16,7 +16,8 @@ body {
     font-family: 'Lobster', cursive;
     text-align: center;
     color: #2cb08d;
-    padding: 20px;
+    padding: 10px;
+    font-size: 24px;
 }
 
 .subheading {
