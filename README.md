@@ -1,6 +1,6 @@
 # Psychic-Game
 
-This is simple guessing game that stores a random secret letter value and prompts users to press a key to guess the correct letter.
+This simple guessing game stores a random secret letter value and prompts users to press a key to guess the correct letter.
 
 ## Basic features:
 1. Wins: # of times the user has guessed the letter correctly.
