@@ -26,22 +26,24 @@ document.onkeyup = function(event) {
 var keyPress = /[a-z]/;
     if (!keyPress.test(userGuess)) {
       alert("Ops! Please enter only letters");
-      return false;
+      return;
     }
 
-//4. if player guesses correctly, win by 1 and clear used letters array
+//4. if player guesses correctly, 
+// win by 1 and clear used letters array
 if (userGuess === randomLetter) {
     alert("Congratulations! You got it right!");
     winCount++;
     guessedLetters = [];
     guessesRemaining = 9;
     }
-
-//5. if player guesses incorrectly, reduce guessesRemaining by 1 and add new item to the array
-if (userGuess != randomLetter) {
+    
+//5. if player guesses incorrectly, 
+// reduce guessesRemaining by 1 and add new item to the array
+else {
     guessesRemaining--;
     guessedLetters.push(userGuess);
-    }
+}
     
 //6. if guessesRemaining is less than 1, reset to zero and clear used letters array
 if (guessesRemaining < 1) {
